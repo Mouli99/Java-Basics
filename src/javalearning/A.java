@@ -28,7 +28,7 @@ public class A {
 		Iterator<String> fgh = bcd.iterator();
 		while(fgh.hasNext()) {	
 			System.out.println(fgh.next());
-			bcd.add("King");
+			//bcd.add("King");
 		}
 		System.out.println("====================Enumeration=====");
 	
@@ -36,6 +36,8 @@ public class A {
 		while(jkl.hasMoreElements()) {
 			System.out.println(jkl.nextElement());
 		}
+		
+		System.out.println("Hello");
 		
 
 	}
