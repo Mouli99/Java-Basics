@@ -37,7 +37,14 @@ public class A {
 			System.out.println(jkl.nextElement());
 		}
 		
-		System.out.println("Hello");
+		System.out.println("====Sorting Algorithms===");
+		
+		B obj = new B();
+		obj.function();
+		
+		System.out.println("====Maps Concept===");
+		C obj1 = new C();
+		obj1.hashMap1();
 		
 
 	}
